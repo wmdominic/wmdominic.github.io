@@ -1,0 +1,105 @@
+html{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-align: center;
+    background-color:navy;
+    margin-right: 0px;
+    color: oldlace;
+}
+
+h2{
+    text-align: center;
+    font-style: italic;
+    background-color:navy;
+    margin-top: -30px;
+    padding-top: 25px;
+    color: oldlace;
+}
+
+h3 {
+    text-align: center;
+    text-decoration: overline underline;
+    color: rgb(0, 163, 0); 
+}
+
+h1, h2, h5 {
+    background-color: Navy;
+}
+
+h4 {
+    text-decoration: underline;
+}
+
+h5 {
+    text-align: center;
+    background-color: Navy;
+    margin-top: -30px;
+    padding-top: 25px;
+    font-weight: normal; 
+    color: oldlace;
+}
+
+div.tooltip {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+  
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    bottom: 100%; /* At the bottom of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+/* unvisited link */
+a:link {
+    color:oldlace;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: oldlace;
+}
+
+/* mouse over link */
+a.homepage:hover {
+    color: black;
+}
+
+/* selected link */
+a.homepage:active {
+    color: black;

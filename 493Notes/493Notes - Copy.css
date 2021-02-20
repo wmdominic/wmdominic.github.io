@@ -1,0 +1,119 @@
+/* 493 Notes CSS page */
+html {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    margin-bottom: -15px;
+    text-align: center;
+}
+
+.pageheader {
+    text-align: center;
+    text-decoration: none;
+}
+
+#Chapter1 h2{
+    color:darkcyan;
+}
+
+#Chapter2 h2{
+    color:deeppink;
+}
+
+#Chapter3 h2{
+    color: mediumpurple;
+}
+
+h3{
+    text-decoration: underline overline;
+    text-align: center;
+}
+
+dd {
+    margin-bottom: 20px;
+}
+
+dt {
+    font-style: italic;
+    font-weight: 550;
+    margin-bottom: 5px;
+}
+
+
+.tab {
+    margin-left: 1cm;
+}
+
+.doubletab {
+    margin-left: 2cm;
+}
+
+.break {
+    text-indent: 0px;
+    text-align: center;
+}
+
+.NP {
+    color: dodgerblue;
+}
+
+.be {
+    color:  rgba(194, 174, 0, 0.753);
+    font-style: italic;
+}
+
+.ADV {
+    color: rgb(166, 97, 235);
+}
+
+.ADJ {
+    color: rgb(248, 152, 62);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.obj {
+    color: rgb(216, 10, 10);
+}
+
+.objio {
+    color: rgb(226, 204, 4) ;
+}
+
+.prep {
+    color: saddlebrown;
+}
+
+h4 {
+    font-weight: inherit;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+#color {
+    margin-bottom: 3px;
+}
+
+.verb {
+    color:  rgb(11, 212, 11);
+}
+
+footer {
+    font-style: italic;
+    margin-top: 100px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#empty {
+    margin: 250px;
+}

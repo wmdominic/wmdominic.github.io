@@ -1,0 +1,72 @@
+html {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.button-group {
+    margin: auto;
+  width: auto;
+  padding: 10px;
+  text-align: center;
+}
+
+button {
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 550;
+}
+
+.button1:hover {
+    background-color:rgb(247, 200, 147)
+}
+
+.button1 {
+    background-color:rgb(241, 160, 67);
+}
+
+.button2 {
+    background-color: rgb(81, 151, 207);
+}
+
+.button2:hover {
+    background-color: rgb(149, 201, 243);
+}
+
+.button3 {
+    background-color:greenyellow
+}
+
+.button3:hover {
+    background-color: rgb(210, 255, 142);
+}
+
+.button4 {
+    background-color: rgb(252, 255, 49);
+}
+
+.button4:hover {
+    background-color: rgb(253, 245, 168);
+}
+
+.button5 {
+    background-color: rgb(230, 44, 44);
+}
+
+.button5:hover {
+    background-color: rgb(236, 110, 110);
+}
+
