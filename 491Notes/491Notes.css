@@ -2,14 +2,31 @@ html {
     font-family: 'Times New Roman', Times, serif;
 }
 
+body {
+    height: 100%;
+    width: 100%;
+    color: white;
+  background-color:#970101;
+   
+  background-image: repeating-linear-gradient(transparent, transparent 50px, black 50px, black 53px, transparent 53px, transparent 63px, black 63px, black 66px, transparent 66px, transparent 116px, rgba(0,0,0,.5) 116px, rgba(0,0,0,.5) 166px, rgba(255,255,255,.2) 166px, rgba(255,255,255,.2) 169px, rgba(0,0,0,.5) 169px, rgba(0,0,0,.5) 179px, rgba(255,255,255,.2) 179px, rgba(255,255,255,.2) 182px, rgba(0,0,0,.5) 182px, rgba(0,0,0,.5) 232px, transparent 232px),  
+    repeating-linear-gradient(270deg, transparent, transparent 50px, white 50px, white 53px, transparent 53px, transparent 63px, white 63px, white 66px, transparent 66px, transparent 116px, rgba(0,0,0,.5) 116px, rgba(0,0,0,.5) 166px, rgba(255,255,255,.2) 166px, rgba(255,255,255,.2) 169px, rgba(0,0,0,.5) 169px, rgba(0,0,0,.5) 179px, rgba(255,255,255,.2) 179px, rgba(255,255,255,.2) 182px, rgba(0,0,0,.5) 182px, rgba(0,0,0,.5) 232px, transparent 232px);
+  
+  }
+  
+
 h1 {
     text-align: center;
+    color: rgb(216, 216, 216);
+    -webkit-text-stroke: 1px black;
+    font-size: 48px;
 }
 
 .button-group {
     margin: auto;
   width: auto;
   padding: 10px;
+  padding-top: 0px;
+  margin-top: -5px;
   text-align: center;
 }
 
@@ -30,43 +47,10 @@ button {
     font-weight: 550;
 }
 
-.button1:hover {
-    background-color:rgb(247, 200, 147)
+button {
+    background-color: red;
 }
 
-.button1 {
-    background-color:rgb(241, 160, 67);
+button:hover {
+    background-color: lightpink;
 }
-
-.button2 {
-    background-color: rgb(81, 151, 207);
-}
-
-.button2:hover {
-    background-color: rgb(149, 201, 243);
-}
-
-.button3 {
-    background-color:greenyellow
-}
-
-.button3:hover {
-    background-color: rgb(210, 255, 142);
-}
-
-.button4 {
-    background-color: rgb(252, 255, 49);
-}
-
-.button4:hover {
-    background-color: rgb(253, 245, 168);
-}
-
-.button5 {
-    background-color: rgb(230, 44, 44);
-}
-
-.button5:hover {
-    background-color: rgb(236, 110, 110);
-}
-

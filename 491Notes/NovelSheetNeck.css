@@ -1,20 +1,24 @@
 html{
     font-family: 'Times New Roman', Times, serif;
+    background-color: #002e2c;
+    background-image: url(gray-floral.png);
+    overflow-y: hidden; 
 }
-
 
 h1 {
     text-align: center;
-    background-color:greenyellow;
-    margin-right: 0px;
+    color: oldlace;
+    font-size: 72px;
+    font-family: "Baskerville Old Face";
 }
 
-h2{
+h2 {
     text-align: center;
     font-style: italic;
-    background-color:greenyellow;
-    margin-top: -30px;
+    margin-top: -60px;
     padding-top: 25px;
+    color: oldlace;
+    font-family: "Baskerville Old Face";
 }
 
 h3 {
@@ -23,29 +27,20 @@ h3 {
     color: rgb(0, 163, 0); 
 }
 
-h1, h2, h5 {
-    background-color: greenyellow;
-}
-
 h4 {
     text-decoration: underline;
 }
 
 h5 {
     text-align: center;
-    background-color: greenyellow;
-    margin-top: -30px;
+    margin-top: -10px;
     padding-top: 25px;
     font-weight: normal; 
+    margin-left: -75px;
 }
 
-div.tooltip {
-    padding-right: 50px;
-    padding-left: 50px;
-}
 
 .tooltip {
-    position: relative;
     display: inline-block;
 }
   
@@ -84,13 +79,13 @@ div.tooltip {
 
 /* unvisited link */
 a:link {
-    color: black;
+    color: oldlace;
     text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-    color: black;
+    color: oldlace;
 }
 
 /* mouse over link */
@@ -103,55 +98,10 @@ a.homepage:active {
     color: seashell;
 }
 
-/* mouse over link */
-.novellink:hover {
-    color: seagreen;
-    font-weight: bold;
-    font-style: italic;
-}
-
-/* selected link */
-.novellink:active {
-    color: seagreen;
-
-}
-
-#Necklace {
-    height: 275px;
-    width: 250px;
-}
-
-#AABC {
-    width: 225px;
-}
-
-#CopperSun {
-    width: 250px;
-}
-
-#ThePoetX {
-    width: 225px;
-}
-
-  /* Create three equal columns that floats next to each other */
-.column {
-    float: left;
-    width: 48%;
-    padding-bottom: 25px;
-    margin: 5px;
+p {
+    color: oldlace;
+    font-size: 32px;
+    margin-left: 100px;
+    margin-right: 100px;
     text-align: center;
-
-}
-
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-@media screen and (max-width: 775px) {
-    .column {
-      width: 98%;
-    }
 }
