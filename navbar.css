@@ -1,16 +1,16 @@
-/* Style the navigation bar */
 
-.navbar {
+.topnav {
     width: 100%;
     background-color: #555;
     overflow: hidden;
     position: fixed;
     margin-left: -10px;
+    z-index: 1;
 }
 
 /* Navbar links */
 
-.navbar a {
+.topnav a {
     float: left;
     text-align: center;
     padding: 12px;
@@ -25,7 +25,7 @@ a:hover {
 }
 
 a:active {
-    background-color: blue;
+    background-color: black;
 }
 
 /* Current/active navbar link */
@@ -35,9 +35,37 @@ a:active {
 
 /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
 
-@media screen and (max-width: 500px) {
+/* @media screen and (max-width: 500px) {
   .navbar a {
     float: none;
     display: block;
   }
+} */
+
+.topnav .icon {
+    display: none;
+  }
+  
+
+@media screen and (max-width: 900px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+@media screen and (max-width: 900px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
 }

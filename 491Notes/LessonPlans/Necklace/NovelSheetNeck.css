@@ -1,0 +1,106 @@
+html{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #002e2c;
+    background-image: url(gray-floral.png);
+}
+
+h1 {
+    text-align: center;
+    color: oldlace;
+    font-size: 72px;
+    font-family: "Baskerville Old Face";
+}
+
+h2 {
+    text-align: center;
+    font-style: italic;
+    margin-top: -60px;
+    padding-top: 25px;
+    color: oldlace;
+    font-family: "Baskerville Old Face";
+}
+
+h3 {
+    text-align: center;
+    text-decoration: overline underline;
+    color: rgb(0, 163, 0); 
+}
+
+h4 {
+    text-decoration: underline;
+}
+
+h5 {
+    text-align: center;
+    margin-top: -10px;
+    padding-top: 25px;
+    font-weight: normal; 
+    margin-left: -75px;
+}
+
+
+.tooltip {
+    display: inline-block;
+}
+  
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    bottom: 100%; /* At the bottom of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+/* unvisited link */
+a:link {
+    color: oldlace;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: oldlace;
+}
+
+/* mouse over link */
+a.homepage:hover {
+    color: oldlace;
+}
+
+/* selected link */
+a.homepage:active {
+    color: seashell;
+}
+
+p {
+    color: oldlace;
+    font-size: 32px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
