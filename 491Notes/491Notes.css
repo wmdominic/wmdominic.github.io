@@ -1,24 +1,25 @@
 html {
     font-family: 'Times New Roman', Times, serif;
+    background: 
+  linear-gradient(135deg, #ECEDDC 25%, transparent 25%) -51px 0,
+  linear-gradient(225deg, #ECEDDC 25%, transparent 25%) -50px 0,
+  linear-gradient(315deg, #ECEDDC 25%, transparent 25%),
+  linear-gradient(45deg, #ECEDDC 25%, transparent 25%);
+  background-size: 100px 100px;
+  background-color:#a000005d;
 }
 
 body {
-    height: 100%;
-    width: 100%;
-    color: white;
-  background-color:#970101;
-   
-  background-image: repeating-linear-gradient(transparent, transparent 50px, black 50px, black 53px, transparent 53px, transparent 63px, black 63px, black 66px, transparent 66px, transparent 116px, rgba(0,0,0,.5) 116px, rgba(0,0,0,.5) 166px, rgba(255,255,255,.2) 166px, rgba(255,255,255,.2) 169px, rgba(0,0,0,.5) 169px, rgba(0,0,0,.5) 179px, rgba(255,255,255,.2) 179px, rgba(255,255,255,.2) 182px, rgba(0,0,0,.5) 182px, rgba(0,0,0,.5) 232px, transparent 232px),  
-    repeating-linear-gradient(270deg, transparent, transparent 50px, white 50px, white 53px, transparent 53px, transparent 63px, white 63px, white 66px, transparent 66px, transparent 116px, rgba(0,0,0,.5) 116px, rgba(0,0,0,.5) 166px, rgba(255,255,255,.2) 166px, rgba(255,255,255,.2) 169px, rgba(0,0,0,.5) 169px, rgba(0,0,0,.5) 179px, rgba(255,255,255,.2) 179px, rgba(255,255,255,.2) 182px, rgba(0,0,0,.5) 182px, rgba(0,0,0,.5) 232px, transparent 232px);
-  
+    color: black;
+    text-align: center;
+}
   }
   
 
 h1 {
     text-align: center;
-    color: rgb(216, 216, 216);
-    -webkit-text-stroke: 1px black;
-    font-size: 48px;
+    color: black;
+
 }
 
 .button-group {
@@ -48,9 +49,9 @@ button {
 }
 
 button {
-    background-color: red;
+    background-color: #dd0042fd;
 }
 
 button:hover {
-    background-color: lightpink;
+    background-color: rgb(252, 61, 89);
 }

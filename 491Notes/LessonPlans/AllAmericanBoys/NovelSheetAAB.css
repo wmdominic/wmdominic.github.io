@@ -4,29 +4,24 @@ html{
 
 h1 {
     text-align: center;
-    background-color:navy;
     margin-right: 0px;
-    color: oldlace;
+    color: black;
 }
 
 h2{
     text-align: center;
     font-style: italic;
-    background-color:navy;
     margin-top: -30px;
     padding-top: 25px;
-    color: oldlace;
+    color: black;
 }
 
 h3 {
     text-align: center;
     text-decoration: overline underline;
-    color: rgb(0, 163, 0); 
+    color: black; 
 }
 
-h1, h2, h5 {
-    background-color: Navy;
-}
 
 h4 {
     text-decoration: underline;
@@ -34,11 +29,10 @@ h4 {
 
 h5 {
     text-align: center;
-    background-color: Navy;
     margin-top: -30px;
     padding-top: 25px;
     font-weight: normal; 
-    color: oldlace;
+    color: black;
 }
 
 div.tooltip {
@@ -86,20 +80,31 @@ div.tooltip {
 
 /* unvisited link */
 a:link {
-    color:oldlace;
+    color:black;
     text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-    color: oldlace;
+    color: black;
 }
 
 /* mouse over link */
 a.homepage:hover {
-    color: black;
+    color: blue;
 }
 
 /* selected link */
 a.homepage:active {
-    color: black;
+    color: blue;
+}
+
+body {
+    background: 
+    linear-gradient(135deg, #ECEDDC 25%, transparent 25%) -50px 0,
+    linear-gradient(225deg, #ECEDDC 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, #ECEDDC 25%, transparent 25%),
+    linear-gradient(45deg, #ECEDDC 25%, transparent 25%);
+    background-size: 100px 100px;
+    background-color: #7eb3f86b;
+}

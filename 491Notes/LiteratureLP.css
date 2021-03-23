@@ -3,7 +3,14 @@ html{
 }
 
 body {
-    background-image: url(bookshelves.jpg)
+    background:
+    linear-gradient(135deg, #ffffff 25%, transparent 25%) -51px 0,
+    linear-gradient(225deg, #ffffff 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, #ffffff 25%, transparent 25%),
+    linear-gradient(45deg, #ffffff 25%, transparent 25%);
+    background-size: 100px 100px;
+    background-color: #ffd4932c;
+}
 }
 
 h1 {
@@ -25,7 +32,8 @@ h3 {
 }
 
 h1, h2, h5 {
-    color: oldlace;
+    color: black;
+    text-align: center;
 }
 
 h4 {
@@ -37,6 +45,10 @@ h5 {
     margin-top: -30px;
     padding-top: 25px;
     font-weight: normal; 
+}
+
+p {
+    font-size: 20px;
 }
 
 div.tooltip {
@@ -84,18 +96,18 @@ div.tooltip {
 
 /* unvisited link */
 a:link {
-    color: oldlace;
+    color: black;
     text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-    color: oldlace;
+    color: black;
 }
 
 /* mouse over link */
 a.homepage:hover {
-    color: oldlace;
+    color: black;
 }
 
 /* selected link */
@@ -117,20 +129,23 @@ a.homepage:active {
 }
 
 #Necklace {
-    height: 275px;
-    width: 250px;
+    height: 400px;
+    width: 275px;
 }
 
 #AABC {
-    width: 225px;
+    height: 400px;
+    width: 275px;
 }
 
 #CopperSun {
-    width: 250px;
+    height: 400px;
+    width: 275px;
 }
 
 #ThePoetX {
-    width: 225px;
+    height: 400px;
+    width: 275px;
 }
 
   /* Create three equal columns that floats next to each other */
