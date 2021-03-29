@@ -1,0 +1,156 @@
+html{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: turquoise;
+    background-image: radial-gradient(#89b57e 0%, #4c9141 60%, #355f2d 100%) 
+
+}
+
+h1 {
+    text-align: center;
+    color: oldlace;
+    font-size: 72px;
+    font-family: "Baskerville Old Face";
+}
+
+h2 {
+    text-align: center;
+    font-style: italic;
+    margin-top: -60px;
+    padding-top: 25px;
+    color: oldlace;
+    font-family: "Baskerville Old Face";
+}
+
+
+h4 {
+    text-decoration: underline;
+}
+
+h5 {
+    text-align: center;
+    margin-top: -10px;
+    padding-top: 25px;
+    font-weight: normal; 
+    margin-left: -75px;
+}
+
+
+.tooltip {
+    display: inline-block;
+}
+  
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: oldlace;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    bottom: 100%; /* At the bottom of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent oldlace transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+/* unvisited link */
+a:link {
+    color: oldlace;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: oldlace;
+}
+
+/* mouse over link */
+a.homepage:hover {
+    color: oldlace;
+}
+
+/* selected link */
+a.homepage:active {
+    color: seashell;
+}
+
+.intro {
+    color: oldlace;
+    font-size: 26px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+h3 {
+    text-align: center;
+    text-decoration: overline underline;
+    color: oldlace;
+}
+
+h4 {
+    text-decoration: underline;
+    color: oldlace;
+}
+
+li.a {
+    list-style: upper-roman;
+    color:oldlace;
+}
+
+li.b {
+    list-style: none;
+    color: oldlace;
+}
+
+li.c {
+    list-style: upper-alpha;
+    color: oldlace;
+}
+
+
+li.e {
+    list-style: upper-alpha;
+    color: oldlace;
+}
+
+.transition {
+    margin-left: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: oldlace;
+}
+
+.References {
+    margin-left: -25px;
+    color: oldlace;
+}
+
+ul {
+    color: oldlace;
+}
+
+#Speeches {
+    margin-top: 75px;
+    font-size: 18px;
+}

@@ -1,8 +1,11 @@
 html{
     font-family: 'Times New Roman', Times, serif;
-    background-color: #002e2c;
-    background-image: url(gray-floral.png);
 }
+
+body {
+    background-image: radial-gradient(#2bb9b9 0%, #197070 33%, #0f4b4b 66%, #011d1d 100%) 
+}
+
 
 h1 {
     text-align: center;

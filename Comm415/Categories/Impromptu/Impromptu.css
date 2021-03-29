@@ -1,0 +1,109 @@
+html{
+    font-family: 'Times New Roman', Times, serif;
+    min-height: 110%; 
+    overflow-y: hidden;   
+}
+
+body {
+    min-height: 100%;
+    background-image: radial-gradient(#ffd9b6 0%, #f28e1c 50%, #9c5d1a 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 72px;
+    font-family: "Baskerville Old Face";
+}
+
+h2 {
+    text-align: center;
+    font-style: italic;
+    margin-top: -60px;
+    padding-top: 25px;
+    color: black;
+    font-family: "Baskerville Old Face";
+}
+
+
+h4 {
+    text-decoration: underline;
+}
+
+h5 {
+    text-align: center;
+    margin-top: -10px;
+    padding-top: 25px;
+    font-weight: normal; 
+    margin-left: -75px;
+}
+
+
+.tooltip {
+    display: inline-block;
+}
+  
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    bottom: 100%; /* At the bottom of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+/* unvisited link */
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a.homepage:hover {
+    color: black;
+}
+
+/* selected link */
+a.homepage:active {
+    color: seashell;
+}
+
+.intro {
+    color: black;
+    font-size: 26px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    margin-bottom: 50px;
+}

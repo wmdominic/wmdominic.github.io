@@ -11,7 +11,7 @@ body {
     background-size: 100px 100px;
     background-color: #ffd4932c;
 }
-}
+
 
 h1 {
     text-align: center;
@@ -128,22 +128,7 @@ a.homepage:active {
 
 }
 
-#Necklace {
-    height: 400px;
-    width: 275px;
-}
-
-#AABC {
-    height: 400px;
-    width: 275px;
-}
-
-#CopperSun {
-    height: 400px;
-    width: 275px;
-}
-
-#ThePoetX {
+img {
     height: 400px;
     width: 275px;
 }

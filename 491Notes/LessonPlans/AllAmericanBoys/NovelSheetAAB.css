@@ -4,24 +4,25 @@ html{
 
 h1 {
     text-align: center;
-    margin-right: 0px;
     color: black;
+    font-size: 72px;
+    font-family: "Baskerville Old Face";
 }
 
-h2{
+h2 {
     text-align: center;
     font-style: italic;
-    margin-top: -30px;
+    margin-top: -60px;
     padding-top: 25px;
     color: black;
+    font-family: "Baskerville Old Face";
 }
 
 h3 {
     text-align: center;
     text-decoration: overline underline;
-    color: black; 
+    color: rgb(0, 163, 0); 
 }
-
 
 h4 {
     text-decoration: underline;
@@ -29,19 +30,14 @@ h4 {
 
 h5 {
     text-align: center;
-    margin-top: -30px;
+    margin-top: -10px;
     padding-top: 25px;
     font-weight: normal; 
-    color: black;
+    margin-left: -75px;
 }
 
-div.tooltip {
-    padding-right: 50px;
-    padding-left: 50px;
-}
 
 .tooltip {
-    position: relative;
     display: inline-block;
 }
   
@@ -80,7 +76,7 @@ div.tooltip {
 
 /* unvisited link */
 a:link {
-    color:black;
+    color: black;
     text-decoration: none;
 }
 
@@ -91,20 +87,29 @@ a:visited {
 
 /* mouse over link */
 a.homepage:hover {
-    color: blue;
+    color: black;
 }
 
 /* selected link */
 a.homepage:active {
-    color: blue;
+    color: seashell;
 }
 
+p {
+    color: black;
+    font-size: 32px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
 body {
-    background: 
-    linear-gradient(135deg, #ECEDDC 25%, transparent 25%) -50px 0,
-    linear-gradient(225deg, #ECEDDC 25%, transparent 25%) -50px 0,
-    linear-gradient(315deg, #ECEDDC 25%, transparent 25%),
-    linear-gradient(45deg, #ECEDDC 25%, transparent 25%);
-    background-size: 100px 100px;
-    background-color: #7eb3f86b;
+    background-image: radial-gradient(rgb(123, 139, 243)0%, rgb(106, 123, 238) 33%, rgb(84, 106, 245) 66%, rgb(42, 70, 228) 100%) 
+}
+
+p {
+    color: black;
+    font-size: 32px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
 }
