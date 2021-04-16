@@ -1,0 +1,60 @@
+body {
+    background-image: url(simple.png);
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font-size: 42px;
+}
+
+.portfolio {
+    display: block;
+    float: right;
+    margin-top: -102px;
+    margin-right: 100px;
+}
+
+p {
+    text-indent: 50px;
+    margin-left: 50px;
+    font-size: x-large;
+    margin-right: 50px;
+}
+
+img {
+    float: right;
+    height: 300px;
+    width: auto;
+    margin-right: 225px;
+    margin-top: -200px;
+    border-radius: 50%;
+}
+
+#resume {
+    text-indent: none;
+    margin-left: 250px;
+}
+
+/* unvisited link */
+a:link {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: xx-large;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }

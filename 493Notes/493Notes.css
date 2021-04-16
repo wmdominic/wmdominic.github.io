@@ -3,9 +3,19 @@ html {
     font-family: 'Times New Roman', Times, serif;
 }
 
+body {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
 h1 {
     margin-bottom: -15px;
     text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: xx-large;
 }
 
 .pageheader {
@@ -23,6 +33,22 @@ h1 {
 
 #Chapter3 h2{
     color: mediumpurple;
+}
+
+#Chapter4 h2 {
+    color: darkgoldenrod;
+}
+
+#Chapter5 h2 {
+    color: darkmagenta;
+}
+
+#Chapter6 h2 {
+    color: darkgreen;
+}
+
+#Chapter7 h2 {
+    color: darkorange;
 }
 
 h3{
@@ -117,3 +143,20 @@ footer {
 #empty {
     margin: 250px;
 }
+
+.column {
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+
+li {
+    padding-top: 15px;
+}
+
+.column2 {
+    float: left;
+    width: 10%;
+    text-align: center;
+}
+
