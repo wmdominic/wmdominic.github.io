@@ -40,7 +40,7 @@ h2 {
 }
 
 #Chapter5 h2 {
-    color: darkmagenta;
+    color: rgb(177, 10, 177);
 }
 
 #Chapter6 h2 {
@@ -49,6 +49,18 @@ h2 {
 
 #Chapter7 h2 {
     color: darkorange;
+}
+
+#Chapter8 h2 {
+    color: #00b7ff;
+}
+
+#Chapter9 h2{
+    color:#660066;
+}
+
+#Chapter10 h2 {
+    color: #c5535b;
 }
 
 h3{
@@ -160,3 +172,20 @@ li {
     text-align: center;
 }
 
+th, td {
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    border-bottom: 0.5px solid rgb(204, 204, 204);
+}
+
+tr:hover {
+    background-color: rgba(245, 208, 115, 0.212);
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
