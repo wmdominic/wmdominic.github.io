@@ -1,3 +1,18 @@
 {
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "cSpell.ignoreWords": [
+        "carollo",
+        "don",
+        "sanjay"
+    ],
+    "cSpell.words": [
+        "Kolln",
+        "Sanjay's",
+        "covid",
+        "don'ts",
+        "headrow",
+        "objio",
+        "p",
+        "pageheader"
+    ]
 }
