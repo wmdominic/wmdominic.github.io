@@ -1,5 +1,5 @@
 html {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 
 }
 
@@ -43,8 +43,8 @@ button {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 16px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 550;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-weight: 400;
 }
 
 button {

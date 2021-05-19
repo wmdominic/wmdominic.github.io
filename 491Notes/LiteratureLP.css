@@ -1,5 +1,5 @@
 html{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     background: #F1F1F1;
     height: 100vh;
 }
@@ -322,14 +322,14 @@ a.homepage:active {
 
 /* mouse over link */
 .novellink:hover {
-    color: rgb(216, 0, 0);
+    color: rgb(0, 137, 216);
     font-weight: bolder;
     font-variant: small-caps;
 }
 
 /* selected link */
 .novellink:active {
-    color: rgb(182, 50, 160);
+    color: rgb(107, 176, 255);
 
 }
 

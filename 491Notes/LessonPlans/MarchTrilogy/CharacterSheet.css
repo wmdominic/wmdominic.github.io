@@ -1,3 +1,7 @@
+html {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
 .minor_characters {
     margin-left: 100px;
 }
@@ -33,7 +37,7 @@ body {
     margin-left: 30px;
     margin-right: 50px;
     margin-bottom: 100px;
-    background: linear-gradient(to bottom, #ff5757 0%,#758eff 40%, #7fb12e 110%);
+    background: linear-gradient(to bottom, #ffa3a3 0%,#b4c2ff 40%, #bedb8f 110%);
 
 }
 div {

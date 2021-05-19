@@ -1,5 +1,5 @@
 html{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     background-color: turquoise;
     background-image: radial-gradient(#89b57e 0%, #4c9141 60%, #355f2d 100%) 
 
@@ -9,7 +9,7 @@ h1 {
     text-align: center;
     color: oldlace;
     font-size: 72px;
-    font-family: "Baskerville Old Face";
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
 h2 {
@@ -18,7 +18,7 @@ h2 {
     margin-top: -60px;
     padding-top: 25px;
     color: oldlace;
-    font-family: "Baskerville Old Face";
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
 

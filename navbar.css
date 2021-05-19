@@ -6,6 +6,7 @@
     position: fixed;
     margin-left: -10px;
     z-index: 1;
+    letter-spacing: 0.1em;
 }
 
 /* Navbar links */
@@ -69,3 +70,4 @@ a:active {
         text-align: left;
     }
 }
+
