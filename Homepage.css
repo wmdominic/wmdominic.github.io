@@ -3,20 +3,19 @@ html {
 }
 
 body {
-    height: 100%;
-    width: 100%;
+
     background-color: #08b5e0;
     overflow-x: hidden;
     overflow-y: hidden;
 }
 
-#headers {
+/* #headers {
     padding: 25px;
     padding-top: 175px;
     padding-bottom: 300px;
     margin: -8px;
     box-sizing: border-box;
-}
+} */
 
 .context {
     width: 100%;
@@ -25,13 +24,13 @@ body {
     
 }
 
-.container{
+/* .container{
     width: 100%;
     height: auto;
     margin: 0px;
     padding: 0px;
     background: #fff;
-}
+} */
 
 h1 {
     text-align: center;
@@ -50,21 +49,21 @@ h3 {
     font-size: 20px;
 }
 
+
 .area{
     background: #08b5e0;  
-    background: -webkit-linear-gradient(to left, #ffffff, #9cdbf8); 
+    background: -webkit-linear-gradient(to left, #ffffff, #97d2ee); 
     width: 100%;
-    height: 100vh;
-    margin-top: -10px;
 }
 
 .circles{
     position: absolute;
     top: 50;
     left: 0;
-    width: 100%;
+    width: 98%;
     height: 100vh;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .circles li{

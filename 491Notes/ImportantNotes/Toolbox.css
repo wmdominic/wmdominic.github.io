@@ -146,22 +146,22 @@ p {
 
 /* unvisited link */
 a:link {
-    color: black;
+    color: #3344dd;
 }
   
   /* visited link */
 a:visited {
-    color: black;
+    color: #884488;
 }
   
   /* mouse over link */
 a:hover {
-    color: oldlace;
+    color: #bb1122;
 }
   
   /* selected link */
 a:active {
-    color: seashell;
+    color: #bb1122;
 }
 
 .indent {

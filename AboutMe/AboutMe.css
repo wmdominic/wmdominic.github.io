@@ -14,9 +14,14 @@ h1 {
 
 .portfolio {
     display: block;
-    float: right;
-    margin-top: -102px;
-    margin-right: 100px;
+    float: left;
+    margin-top: -100px;
+    margin-left: 100px;
+    
+}
+
+#portfoliohome {
+  font-size: 32px;
 }
 
 p {
@@ -30,35 +35,46 @@ img {
     float: right;
     height: 300px;
     width: auto;
-    margin-right: 225px;
-    margin-top: -200px;
+    margin-right: 275px;
+    margin-top: -100px;
     border-radius: 50%;
 }
 
 #resume {
     text-indent: none;
-    margin-left: 250px;
+    width: 50%;
+    text-align: center;
 }
 
 /* unvisited link */
 a:link {
-    color: black;
-    font-weight: bold;
-    text-decoration: none;
-    font-size: xx-large;
-  }
-  
-  /* visited link */
-  a:visited {
-    color: green;
-  }
-  
-  /* mouse over link */
-  a:hover {
-    color: hotpink;
-  }
-  
-  /* selected link */
-  a:active {
-    color: blue;
-  }
+  color: #3344dd;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: xx-large;
+}
+
+/* visited link */
+a:visited {
+  color: #884488;
+}
+
+/* mouse over link */
+a:hover {
+  color: #bb1122;
+}
+
+/* selected link */
+a:active {
+  color: #bb1122;
+}
+
+#socialmedia {
+  position: absolute;
+  bottom: 0;
+  right: 340px;
+  height: 150px;
+  display: inline-block;
+  align-items: left;
+}
+

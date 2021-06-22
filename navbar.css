@@ -3,9 +3,9 @@
     width: 100%;
     background-color: #555;
     overflow: hidden;
-    position: fixed;
-    margin-left: -10px;
-    z-index: 1;
+    /* position: fixed; */
+    /* margin-left: -10px; */
+    /* z-index: 1; */
     letter-spacing: 0.1em;
 }
 
@@ -26,29 +26,17 @@ a:hover {
 }
 
 a:active {
-    background-color: black;
+    background-color: #fff;
+    color: #000;
 }
 
-/* Current/active navbar link */
-.homebutton {
-    background-color: rgb(107, 225, 255);
-}
-
-/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
-
-/* @media screen and (max-width: 500px) {
-  .navbar a {
-    float: none;
-    display: block;
-  }
-} */
 
 .topnav .icon {
     display: none;
   }
   
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1250px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
@@ -56,7 +44,7 @@ a:active {
     }
   }
   
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1250px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive .icon {
         position: absolute;

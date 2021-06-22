@@ -3,23 +3,24 @@
 
     <head>
         <title>ENGL 491 Homepage</title>
-        <link rel="stylesheet" href="491Notes.css">
-        <link rel="shortcut icon" type="image/png" href="WLLogo.png">
         <script src="https://kit.fontawesome.com/255beb0e62.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="491Notes.css">
+        <link rel="stylesheet" href="/navbar.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script>
+          $.get("/NavigationBar.html", function(data){
+            $("#my-nav-bar").replaceWith(data);
+          });
+      </script>        
     </head>
 
-    <section id="NavBar"></section>
-    <section id="background">
-        <div class="bg"></div>
-        <div class="bg bg2"></div>
-        <div class="bg bg3"></div>
-    </section>
+    
     <body>
+        <header>
+            <div id="my-nav-bar"></div>
+        </header>
 
         <h1>ENGL 491: Communication Arts and Literature <br>Theory and Methods of Grades 9 through 12</h1>
-        <div class="portfolio">
-            <a href="../index.html"><h1 id="portfoliohome"><i class="fas fa-home"></i></h1></a>
-        </div>
         <br>
         <br>
         <br>
@@ -36,6 +37,12 @@
         <div>
             <button id="LitMemior"><a href="../491Notes/GroupProject/GroupUnitProject.pdf"><i class="fas fa-university"></i>  Group Project</a></button>
         </div>
+
+        <section id="background">
+            <div class="bg"></div>
+            <div class="bg bg2"></div>
+            <div class="bg bg3"></div>
+        </section>
     </body>
     
 </html>

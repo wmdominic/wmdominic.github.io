@@ -81,23 +81,23 @@ h5 {
 
 /* unvisited link */
 a:link {
-    color: oldlace;
+    color: #ffc8f1;
     text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-    color: oldlace;
+    color: #8affc4;
 }
 
 /* mouse over link */
-a.homepage:hover {
-    color: oldlace;
+a:hover {
+    color: #ffeaa8;
 }
 
 /* selected link */
-a.homepage:active {
-    color: seashell;
+a:active {
+    color: #ffeaa8;
 }
 
 p {
