@@ -6,8 +6,10 @@
       <link rel="stylesheet" href="Homepage.css" />
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
       <script>
-        $.get("NavigationBar.html", function(data){
-          $("#my-nav-bar").replaceWith(data);
+        $(function () {
+          $.get("NavigationBar.html", function (data) {
+            $("#my-nav-bar").append(data);
+          });
         });
       </script>        
     </head>
