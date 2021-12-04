@@ -8,8 +8,18 @@
         <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
         <link rel="shortcut icon" type="image/png" href="WLLogo.png">
         <script src="https://kit.fontawesome.com/255beb0e62.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="/BSNavBar.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script>
+          $.get("/BootstrapNavBar.html", function(data){
+            $("#my-nav-bar").replaceWith(data);
+          });
+      </script>        
+    
     </head>
     
+    
+
     <div class="triangle-container">
         <div class="triangle">
           <div class="inner-triangle"></div>
@@ -51,7 +61,7 @@
         </div>
        </div>
 
-    <hgroup>
+    <hgroup>        
         <h1>Course Readings and Lesson Plans</h1>
         <h2>Texts used in Engl 491, Lesson Plans and Activities from Class, Notes Taken from the Reading, and Additional Resourses</h2>
         <h5>

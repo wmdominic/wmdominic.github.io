@@ -1,0 +1,23 @@
+#portfolionavbar {
+    background-color: #555;
+}
+
+/* unvisited link */
+a:link {
+    color: oldlace;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(0, 153, 255);
+  }
+  
+.navbar .navbar-nav .nav-link:hover {
+    color: rgb(0, 118, 236);
+    background-color: oldlace;
+}
+
+#navbarText {
+    width: 100%;
+    position: relative;
+}

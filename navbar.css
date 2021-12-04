@@ -24,22 +24,22 @@
     outline: none;
     color: #fff;
     padding: 6px;
-    background-color: #000;
+    background-color: #555;
     font-family: inherit;
-    /* margin: 0px; */
+    margin: 0px;
     letter-spacing: 0.1em;
 }
 
 /* buttons and dropdown buttons hover color and color the button stays when clicked and dropdown menu appears.*/
-.topnav a:hover, .dropdown:hover, .drop:focus {
-    background-color: #000;
+.topnav a:hover, .topnav a:focus, .dropdown:hover, .dropdown:focus, .dropdown:active, .drop:focus, .drop:active, .drop:hover{
+    background-color: blue;
     color: #fff;
 }
 
-a:active {
+/* a:active {
     background-color: #fff;
     color: #000;
-}
+} */
 
 .topnav .icon {
     display: none;
