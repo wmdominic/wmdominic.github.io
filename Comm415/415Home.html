@@ -4,21 +4,20 @@
         <title>COMM 415 Homepage</title>
         <link rel="stylesheet" href="415home.css">
         <script src="https://kit.fontawesome.com/255beb0e62.js" crossorigin="anonymous"></script>
-    
+        <link rel="stylesheet" href="/navbar.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script>
+        $.get("/NavigationBar.html", function(data){
+          $("#my-nav-bar").replaceWith(data);
+        });
+        </script>  
     </head>
-    <section id="background">
-        <div class="bg"></div>
-        <div class="bg bg2"></div>
-        <div class="bg bg3"></div>
-    </section>
-    <header>
-        <div id="my-nav-bar"></div>
-    </header>
+       
+    
+    
     <body>
+        <div id="my-nav-bar"></div>
         <h1>COMM 415: Teaching Methods: Communication Studies</h1>
-        <div>
-            <a href="../index.html"><h1 id="portfoliohome"><i class="fas fa-home"></i></h1></a>
-        </div>
         <br>
         <br>
         <br>
@@ -38,8 +37,14 @@
         <br>
         <a href="/Comm415/Projects/MentalHealthSpeech/InformativeSpeechMentalHealthintheClassroom.html"><button class="project" style="font-size: 20px;">Mental Health in the Classroom Informative Speech  <i class="fas fa-brain"></i></button></a>
         <br>
-        <a ><button class="project" style="font-size: 20px;">Oral Interp  <i class="fas fa-theater-masks"></i></button></a>
+        <a href="https://www.amazon.com/Sometimes-Stars-Say-William-Lewandowski/dp/1701399997"><button class="project" style="font-size: 20px;">Oral Interp  <i class="fas fa-theater-masks"></i></button></a>
         <br>
-        <a ><button class="project" style="font-size: 20px;">Class Activity Project  <i class="fas fa-chalkboard"></i></button></a>
+        <a href="/Comm415/Projects/MiniCommUnit/MiniJournalismCommUnit.pdf"><button class="project" style="font-size: 20px;">Class Activity Project  <i class="fas fa-chalkboard"></i></button></a>
     </body>
+
+    <section id="background">
+        <div class="bg"></div>
+        <div class="bg bg2"></div>
+        <div class="bg bg3"></div>
+    </section>
 </html>

@@ -2,11 +2,15 @@ html{
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
+body {
+    margin-top: 25px;
+}
+
 h1 {
     text-align: center;
     color: black;
     font-size: 72px;
-    font-family: "Century Gothic";
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;;
 }
 
 h2 {
@@ -15,7 +19,7 @@ h2 {
     margin-top: -60px;
     padding-top: 25px;
     color: black;
-    font-family: "Century Gothic";
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;;
 }
 
 
@@ -98,7 +102,7 @@ p {
     text-align: center;
 }
 body {
-    background-image: radial-gradient(#ffc7c9 0%, #ffaaaf 33%, #ff8c96 66%, #ff4466 100%) 
+    background-image: radial-gradient(#ffa1a3 0%, #fc969d 33%, #ff6a76 66%, #ff4668 100%) 
 }
 
 p {
